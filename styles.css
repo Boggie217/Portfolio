@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-image: url(starrySky.jpg);
+    background-attachment: fixed;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav {
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    height: 150px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  nav a:hover {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  main {
+    
+
+   height: 90%;
+    background-color: #34435e;
+    color: aliceblue;
+  }
+  
+  section {
+    margin-bottom: 50px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    
+  }
+  
+  .project {
+    border: 3px solid black;
+    border-radius: 5px;
+  
+    margin-bottom: 20px;
+    background-color: black;
+    color: white;
+   
+   
+  }
+  
+  .project img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    
+  }
+  
+  .project h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    
+  }
+
+  
+
+  #about-me{
+    margin-left: 28%;
+    padding-top: 4%;
+  }
+
+
+  #about-me p{margin-bottom: 10px;}
+
+
+  #projects{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+  }
+
+
+  .project{ width: fit-content;
+    min-width: 23%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 3%;
+    line-height: 30px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 20px;
+    background-color: #00005a;
+  margin: 5%;
+  height: 700px;
+  font-weight: lighter;
+}
+
+
+
+.project img{ margin: 20px;}
+
+
+
+
+  
